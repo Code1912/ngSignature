@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ng Signature</title>
+    <link href="//cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css" rel="stylesheet">
+    <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+    <script src="//cdn.bootcss.com/angular.js/1.6.5/angular.js"></script>
+    <script src="jSignature.js"></script>
+    <script src="index.js"></script>
+    <script src="ng-signature.js"></script>
+</head>
+<body id="app" ng-controller="TestCtrl">
+        <div on-load="onLoad()" s-width="600" s-height="500" s-color="red" s-line-width="6" ng-signature="signature" signature-data="signatureData"
+             ></div>
+            <button ng-click="save()" class="btn btn-sm btn-success ">Save</button>
+        <button ng-click="reset()" class="btn btn-sm btn-success ">Reset</button>
+        <div>
+            <img src="{{imgData}}" alt="">
+        </div>
+ </body>
+<script>
+    angular.bootstrap(document.getElementById('app'),['app'])
+</script>
+</html>
