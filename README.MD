@@ -1,6 +1,6 @@
-#angular 1 sigunture
+# angular 1 sigunture
 
-##use example
+## use example
    <div on-load="onLoad()" s-width="600" s-height="500" s-color="red" s-line-width="6" ng-signature="signature" signature-data="signatureData"  ></div>
    Props:      sColor:'@',
                sWidth:'@',
