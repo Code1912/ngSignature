@@ -14,7 +14,7 @@
                 sWidth:'@',
                 sHeight:'@',
                 sWidth:'@',
-               sBackgroundColor:'@',
+                sBackgroundColor:'@',
                 sLineWidth:'@'
             },
             link : function(scope, element, attrs) {
